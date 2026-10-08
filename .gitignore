@@ -1,23 +1,23 @@
-# ---- 操作系统 ----
+# 操作系统
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# ---- 编辑器 / IDE ----
+#编辑器 / IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# ---- 环境与密钥（重要：不要提交）----
+# 环境与密钥
 .env
 .env.local
 .env.*.local
 *.pem
 *.key
 
-# ---- Python ----
+# Python
 __pycache__/
 *.py[cod]
 .venv/
@@ -29,7 +29,7 @@ env/
 dist/
 build/
 
-# ---- Node.js ----
+# Node.js
 node_modules/
 npm-debug.log*
 yarn-error.log*
@@ -38,7 +38,7 @@ pnpm-debug.log*
 out/
 .turbo/
 
-# ---- 构建产物 ----
+# 构建产物
 *.exe
 *.dll
 *.log
